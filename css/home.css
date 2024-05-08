@@ -88,7 +88,7 @@ nav h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 #cursor h5 {
@@ -96,4 +96,9 @@ nav h4 {
     font-weight: 500;
     font-family: nb2;
     letter-spacing: 1px;
+}
+
+#page2 {
+    width: 100vh;
+    height: 100vh;
 }
