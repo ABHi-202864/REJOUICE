@@ -22,10 +22,12 @@ body {
 }
 
 #page1 {
-    width: 100vw;
+    /* width: 100vw; */
+    width: 100%;
     height: 100vh;
     background-color: #dadada;
     position: relative;
+    cursor: context-menu;
 }
 
 #page1 video {
