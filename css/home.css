@@ -104,3 +104,12 @@ nav h4 {
     width: 100vh;
     height: 100vh;
 }
+
+#hero-discription {
+    margin-top: 5rem;
+}
+
+#discription-top {
+    display: flex;
+    justify-content: space-between;
+}
