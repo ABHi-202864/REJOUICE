@@ -238,3 +238,29 @@ nav h4 {
     font-weight: 400;
     margin: 0 3.5rem 1.2rem;
 }
+
+#page5-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page5-section video {
+    height: 100%;
+}
+
+#page5-section svg {
+    position: absolute;
+    height: 55%;
+}
+
+#page6 {
+    margin-top: 2rem;
+}
+
+#page6-left h4 {
+    font-size: 1.7rem;
+    font-family: nb;
+    font-weight: 400;
+    margin: 0 3.5rem 1.2rem;
+}
