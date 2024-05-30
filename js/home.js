@@ -22,6 +22,20 @@ function cursorEffect() {
             opacity: 0
         });
     });
-};
+}
 
 cursorEffect();
+
+function swiperJs() {
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: true,
+        },
+    });
+}
+
+swiperJs();
