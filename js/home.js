@@ -39,3 +39,31 @@ function swiperJs() {
 }
 
 swiperJs();
+
+function loder() {
+    var tl = gsap.timeline()
+
+    tl.from("#loder h3", {
+        x: 200,
+        opacity: 0,
+        duration: 1,
+        stagger: 0.3
+    })
+
+    tl.to("#loder h3", {
+        opacity: 0,
+        x: -40,
+        duration: 1,
+        stagger: 0.1,
+    })
+
+    tl.to("#loder", {
+        opacity: 0
+    })
+
+    tl.to("#loder", {
+        display: "none"
+    })
+}
+
+loder();
