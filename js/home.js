@@ -55,11 +55,20 @@ function loder() {
         x: -40,
         duration: 1,
         stagger: 0.1,
+        
     })
 
     tl.to("#loder", {
         opacity: 0
     })
+
+    tl.from("#page1-content h1 span", {
+        y: 100,
+        opacity: 0,
+        stagger: 0.1,
+        duration: 0.5,
+        delay: -0.5,
+    });
 
     tl.to("#loder", {
         display: "none"

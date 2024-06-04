@@ -79,6 +79,7 @@ nav h4 {
 
 #page1-content h1 span {
     font-family: nb2;
+    display: inline-block;
 }
 
 #cursor {
